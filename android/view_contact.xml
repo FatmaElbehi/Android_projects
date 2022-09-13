@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="right"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="78dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="111dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_prenom_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prenom"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nom_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textColor="#FF9800"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_numero_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:textAlignment="textEnd"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
